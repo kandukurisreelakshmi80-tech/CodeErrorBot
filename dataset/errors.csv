@@ -1,0 +1,352 @@
+error_message,error_type,explanation,cause,solution,example
+NameError: name 'x' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'x' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'total' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'total' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'count' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'count' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'result' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'result' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'student' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'student' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'value' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'value' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'data' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'data' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'item' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'item' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'score' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'score' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'name' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'name' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'index' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'index' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'n' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'n' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'user' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'user' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'price' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'price' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: name 'avg' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+name 'avg' is not defined,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+NameError: free variable referenced before assignment,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+local variable referenced before assignment,NameError,Python cannot find the variable or name being used.,The variable was used before it was defined or assigned.,"Define the variable before using it, and check for typos in the name.","x = 10
+print(x)"
+TypeError: unsupported operand type(s) for +: 'int' and 'str',TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+TypeError: unsupported operand type(s) for +: 'str' and 'int',TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+TypeError: unsupported operand type(s) for +: 'list' and 'int',TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int',TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+TypeError: unsupported operand type(s) for +: 'dict' and 'list',TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+TypeError: unsupported operand type(s) for +: 'float' and 'str',TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+TypeError: 'int' object is not callable,TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+TypeError: 'NoneType' object is not subscriptable,TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+"TypeError: can only concatenate str (not ""int"") to str",TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+TypeError: missing 1 required positional argument,TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+TypeError: takes 2 positional arguments but 3 were given,TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+TypeError: 'list' object is not callable,TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+object of type 'NoneType' has no len(),TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+unsupported operand type(s) for *: 'str' and 'str',TypeError,An operation or function was applied to a value of the wrong type.,"Two incompatible types were combined, or a function got an argument of the wrong type.",Check the types of the values involved and convert them if necessary.,"age = int(input('Age: '))
+print(age + 1)"
+ValueError: invalid literal for int() with base 10: 'abc',ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: could not convert string to float: 'xyz',ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: too many values to unpack (expected 2),ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+"ValueError: not enough values to unpack (expected 3, got 1)",ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: math domain error,ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: substring not found,ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: invalid literal for int() with base 10: '',ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: list.remove(x): x not in list,ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: negative dimensions are not allowed,ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: could not convert string to float: 'NaN%',ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: operands could not be broadcast together,ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: setting an array element with a sequence,ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+ValueError: empty range for randrange(),ValueError,A function received an argument of the right type but an inappropriate value.,"The value passed in could not be processed as expected, e.g. converting text to a number.","Validate input values before using them, and handle invalid cases explicitly.","num = int('42')  # works
+num = int('abc')  # fails"
+IndexError: list index out of range,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+list index out of range,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+IndexError: string index out of range,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+IndexError: tuple index out of range,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+IndexError: index 5 is out of bounds for axis 0 with size 3,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+index out of range in self,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+IndexError: pop from empty list,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+IndexError: list assignment index out of range,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+IndexError: index 10 is out of bounds for axis 1 with size 4,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+IndexError: too many indices for array,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+IndexError: deque index out of range,IndexError,The requested position in a list or sequence does not exist.,An index outside the valid range of the list was used.,"Check the length of the list before accessing an index, or use a valid index.","numbers = [1, 2, 3]
+print(numbers[1])"
+KeyError: 'id',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'name',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'email',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'age',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'status',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'price',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'user',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 0,KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'username',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'total_price',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'phone_number',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'address',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+KeyError: 'category',KeyError,The requested key does not exist in the dictionary.,An attempt was made to access a dictionary key that was never added.,"Check whether the key exists first (e.g. with .get() or 'in'), or add it before use.","data = {'id': 1}
+print(data.get('id'))"
+SyntaxError: invalid syntax,SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: unexpected EOF while parsing,SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: EOL while scanning string literal,SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: invalid syntax. Perhaps you forgot a comma?,SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: unmatched ')',SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: expected ':',SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: cannot assign to literal,SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: Missing parentheses in call to 'print',SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: invalid character in identifier,SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: unterminated string literal,SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: positional argument follows keyword argument,SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: cannot assign to expression here,SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+SyntaxError: multiple statements found while compiling a single statement,SyntaxError,The code does not follow Python's grammar rules.,"A statement is malformed, such as a missing colon, bracket, or quote.","Re-read the flagged line carefully and fix punctuation, indentation, or keywords.","if x > 0:
+    print(x)"
+IndentationError: expected an indented block,IndentationError,The code's indentation does not match what Python expects.,"Spaces and tabs were mixed, or a block was not indented consistently.",Use consistent indentation (4 spaces is standard) throughout the block.,"if True:
+    print('correctly indented')"
+IndentationError: unexpected indent,IndentationError,The code's indentation does not match what Python expects.,"Spaces and tabs were mixed, or a block was not indented consistently.",Use consistent indentation (4 spaces is standard) throughout the block.,"if True:
+    print('correctly indented')"
+IndentationError: unindent does not match any outer indentation level,IndentationError,The code's indentation does not match what Python expects.,"Spaces and tabs were mixed, or a block was not indented consistently.",Use consistent indentation (4 spaces is standard) throughout the block.,"if True:
+    print('correctly indented')"
+IndentationError: expected an indented block after 'if' statement,IndentationError,The code's indentation does not match what Python expects.,"Spaces and tabs were mixed, or a block was not indented consistently.",Use consistent indentation (4 spaces is standard) throughout the block.,"if True:
+    print('correctly indented')"
+inconsistent use of tabs and spaces in indentation,IndentationError,The code's indentation does not match what Python expects.,"Spaces and tabs were mixed, or a block was not indented consistently.",Use consistent indentation (4 spaces is standard) throughout the block.,"if True:
+    print('correctly indented')"
+IndentationError: expected an indented block after function definition,IndentationError,The code's indentation does not match what Python expects.,"Spaces and tabs were mixed, or a block was not indented consistently.",Use consistent indentation (4 spaces is standard) throughout the block.,"if True:
+    print('correctly indented')"
+IndentationError: unexpected unindent,IndentationError,The code's indentation does not match what Python expects.,"Spaces and tabs were mixed, or a block was not indented consistently.",Use consistent indentation (4 spaces is standard) throughout the block.,"if True:
+    print('correctly indented')"
+IndentationError: expected an indented block after class definition,IndentationError,The code's indentation does not match what Python expects.,"Spaces and tabs were mixed, or a block was not indented consistently.",Use consistent indentation (4 spaces is standard) throughout the block.,"if True:
+    print('correctly indented')"
+IndentationError: expected an indented block after 'for' statement,IndentationError,The code's indentation does not match what Python expects.,"Spaces and tabs were mixed, or a block was not indented consistently.",Use consistent indentation (4 spaces is standard) throughout the block.,"if True:
+    print('correctly indented')"
+TabError: inconsistent use of tabs and spaces,IndentationError,The code's indentation does not match what Python expects.,"Spaces and tabs were mixed, or a block was not indented consistently.",Use consistent indentation (4 spaces is standard) throughout the block.,"if True:
+    print('correctly indented')"
+ModuleNotFoundError: No module named 'pandas',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'numpy',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'matplotlib',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'requests',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'torch',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'flask',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'cv2',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'seaborn',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'sklearn',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'tensorflow',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'bs4',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'yaml',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+No module named 'pandas',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ModuleNotFoundError: No module named 'src',ModuleNotFoundError,Python cannot find the module you tried to import.,The package is not installed in the current environment.,"Install the missing package using pip, e.g. pip install <package>.","pip install pandas
+import pandas as pd"
+ImportError: cannot import name 'sqrt' from 'math',ImportError,A specific name could not be imported from a module.,"The module exists but does not contain the requested attribute or function, or there's a circular import.",Check the spelling of the imported name and the module's version/documentation.,"from math import sqrt
+print(sqrt(16))"
+ImportError: attempted relative import with no known parent package,ImportError,A specific name could not be imported from a module.,"The module exists but does not contain the requested attribute or function, or there's a circular import.",Check the spelling of the imported name and the module's version/documentation.,"from math import sqrt
+print(sqrt(16))"
+ImportError: cannot import name 'X' from partially initialized module,ImportError,A specific name could not be imported from a module.,"The module exists but does not contain the requested attribute or function, or there's a circular import.",Check the spelling of the imported name and the module's version/documentation.,"from math import sqrt
+print(sqrt(16))"
+ImportError: DLL load failed while importing,ImportError,A specific name could not be imported from a module.,"The module exists but does not contain the requested attribute or function, or there's a circular import.",Check the spelling of the imported name and the module's version/documentation.,"from math import sqrt
+print(sqrt(16))"
+cannot import name 'train_test_split' from 'sklearn',ImportError,A specific name could not be imported from a module.,"The module exists but does not contain the requested attribute or function, or there's a circular import.",Check the spelling of the imported name and the module's version/documentation.,"from math import sqrt
+print(sqrt(16))"
+ImportError: No module named 'six',ImportError,A specific name could not be imported from a module.,"The module exists but does not contain the requested attribute or function, or there's a circular import.",Check the spelling of the imported name and the module's version/documentation.,"from math import sqrt
+print(sqrt(16))"
+ImportError: cannot import name 'joblib' from 'sklearn.externals',ImportError,A specific name could not be imported from a module.,"The module exists but does not contain the requested attribute or function, or there's a circular import.",Check the spelling of the imported name and the module's version/documentation.,"from math import sqrt
+print(sqrt(16))"
+ImportError: numpy.core.multiarray failed to import,ImportError,A specific name could not be imported from a module.,"The module exists but does not contain the requested attribute or function, or there's a circular import.",Check the spelling of the imported name and the module's version/documentation.,"from math import sqrt
+print(sqrt(16))"
+ImportError: cannot import name 'app' from partially initialized module 'main',ImportError,A specific name could not be imported from a module.,"The module exists but does not contain the requested attribute or function, or there's a circular import.",Check the spelling of the imported name and the module's version/documentation.,"from math import sqrt
+print(sqrt(16))"
+ZeroDivisionError: division by zero,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+division by zero,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError: float division by zero,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError: integer division or modulo by zero,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError: float floor division by zero,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError: total / 0,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError: average / 0,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError: ratio / 0,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError: score / 0,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError: result / 0,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError: count / 0,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError: modulo by zero,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+cannot divide by zero,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+ZeroDivisionError raised while computing average,ZeroDivisionError,The code attempted to divide a number by zero.,"The divisor evaluated to zero, which is mathematically undefined.",Check that the divisor is not zero before performing the division.,"if divisor != 0:
+    result = total / divisor"
+FileNotFoundError: [Errno 2] No such file or directory: 'data.csv',FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json',FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: [Errno 2] No such file or directory: 'report.txt',FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: [Errno 2] No such file or directory: 'model.pkl',FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: [Errno 2] No such file or directory: 'input.txt',FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: [Errno 2] No such file or directory: 'settings.ini',FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: [Errno 2] No such file or directory: 'users.db',FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: [Errno 2] No such file or directory: 'notes.md',FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: could not find file,FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: [Errno 2] No such file or directory: 'log.txt',FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: Unable to open file,FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: image.png not found,FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+FileNotFoundError: No such directory: 'output/',FileNotFoundError,Python could not find the file you tried to open.,"The file path is incorrect, the file was moved, or it does not exist yet.",Double-check the file path and make sure the file exists before opening it.,"import os
+if os.path.exists('data.csv'):
+    open('data.csv')"
+AttributeError: 'NoneType' object has no attribute 'append',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'NoneType' object has no attribute 'split',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'NoneType' object has no attribute 'upper',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'NoneType' object has no attribute 'shape',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'NoneType' object has no attribute 'values',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'NoneType' object has no attribute 'read',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'NoneType' object has no attribute 'get',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'NoneType' object has no attribute 'strip',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'NoneType' object has no attribute 'items',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'NoneType' object has no attribute 'sort',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'list' object has no attribute 'append_item',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: module 'numpy' has no attribute 'array2',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"
+AttributeError: 'DataFrame' object has no attribute 'sortvalues',AttributeError,The object does not have the attribute or method being called.,"A method or property was called on an object that does not support it, often due to a typo or wrong type.","Check the object's type and available attributes, or use dir(obj) to inspect it.","text = 'hello'
+print(text.upper())"

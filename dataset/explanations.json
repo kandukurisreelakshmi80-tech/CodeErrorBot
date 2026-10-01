@@ -1,0 +1,74 @@
+{
+  "NameError": {
+    "explanation": "Python cannot find the name or variable being used.",
+    "cause": "The variable was used before it was defined, or its name was misspelled.",
+    "solution": "Define or import the name before using it, and double-check spelling and scope.",
+    "example": "x = 10\nprint(x)"
+  },
+  "TypeError": {
+    "explanation": "An operation or function was applied to a value of the wrong type.",
+    "cause": "Two incompatible types were combined, or a function received an argument of an unexpected type.",
+    "solution": "Check the types of the values involved (use type(x)) and convert them if necessary.",
+    "example": "age = int(input('Age: '))\nprint(age + 1)"
+  },
+  "ValueError": {
+    "explanation": "A function received an argument of the right type but with an inappropriate value.",
+    "cause": "The value could not be processed as expected, e.g. converting non-numeric text to a number.",
+    "solution": "Validate input values before using them, and handle invalid cases with a try/except block.",
+    "example": "try:\n    num = int(user_input)\nexcept ValueError:\n    print('Please enter a number')"
+  },
+  "IndexError": {
+    "explanation": "The requested position in a list, string, or tuple does not exist.",
+    "cause": "An index outside the valid range (0 to length-1) was used.",
+    "solution": "Check the length of the sequence with len() before accessing an index.",
+    "example": "numbers = [1, 2, 3]\nif len(numbers) > 1:\n    print(numbers[1])"
+  },
+  "KeyError": {
+    "explanation": "The requested key does not exist in the dictionary.",
+    "cause": "An attempt was made to access a dictionary key that was never added or was misspelled.",
+    "solution": "Use dict.get(key, default) or check 'key in dict' before accessing it directly.",
+    "example": "data = {'id': 1}\nprint(data.get('id', 'not found'))"
+  },
+  "SyntaxError": {
+    "explanation": "The code does not follow Python's grammar rules and cannot be parsed.",
+    "cause": "A statement is malformed — commonly a missing colon, bracket, quote, or comma.",
+    "solution": "Re-read the flagged line (and the line before it) carefully and fix the punctuation or keywords.",
+    "example": "if x > 0:\n    print(x)"
+  },
+  "IndentationError": {
+    "explanation": "The code's indentation does not match what Python expects for a block.",
+    "cause": "Spaces and tabs were mixed, or a block of code was not indented consistently.",
+    "solution": "Use consistent indentation (4 spaces is the standard convention) throughout the file.",
+    "example": "if True:\n    print('correctly indented')"
+  },
+  "ModuleNotFoundError": {
+    "explanation": "Python cannot find the module you tried to import.",
+    "cause": "The package is not installed in the current Python environment.",
+    "solution": "Install the missing package with pip, e.g. `pip install <package_name>`.",
+    "example": "pip install pandas\nimport pandas as pd"
+  },
+  "ImportError": {
+    "explanation": "A specific name could not be imported from a module that was found.",
+    "cause": "The module exists but does not contain the requested attribute/function, its version differs, or there's a circular import.",
+    "solution": "Check the spelling of the imported name, the package version, and watch for circular imports.",
+    "example": "from math import sqrt\nprint(sqrt(16))"
+  },
+  "ZeroDivisionError": {
+    "explanation": "The code attempted to divide a number by zero.",
+    "cause": "The divisor evaluated to zero, which is mathematically undefined.",
+    "solution": "Check that the divisor is not zero before performing the division.",
+    "example": "if divisor != 0:\n    result = total / divisor\nelse:\n    result = 0"
+  },
+  "FileNotFoundError": {
+    "explanation": "Python could not find the file you tried to open.",
+    "cause": "The file path is incorrect, the file was moved/deleted, or it hasn't been created yet.",
+    "solution": "Double-check the file path and use os.path.exists() to verify the file exists before opening it.",
+    "example": "import os\nif os.path.exists('data.csv'):\n    with open('data.csv') as f:\n        pass"
+  },
+  "AttributeError": {
+    "explanation": "The object does not have the attribute or method being called on it.",
+    "cause": "A method or property was called on an object that doesn't support it — often a typo or the object is the wrong type (e.g. None).",
+    "solution": "Check the object's type and available attributes with dir(obj), and confirm the object isn't None.",
+    "example": "text = 'hello'\nprint(text.upper())"
+  }
+}
