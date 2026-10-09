@@ -97,6 +97,22 @@ class AppResultRenderingTests(unittest.TestCase):
         self.assertTrue(any("**Hint**" in item.value for item in app.markdown))
         self.assertNotIn("corrected_code", result)
 
+    def test_explain_program_button_shows_ast_sections_separately(self):
+        app = AppTest.from_file(APP_PATH).run(timeout=30)
+        app.text_area[0].set_value("numbers = [10, 20, 30]\nprint(numbers[1])").run(timeout=30)
+        next(button for button in app.button if button.label == "Explain Program").click().run(timeout=30)
+
+        self.assertFalse(app.exception, [error.message for error in app.exception])
+        self.assertEqual(app.session_state["program_explanation"]["status"], "ok")
+        self.assertNotIn("analysis_result", app.session_state)
+        rendered = "\n".join(item.value for item in app.markdown)
+        for heading in (
+            "PROGRAM OVERVIEW", "PROGRAM LOGIC", "WHY THIS LOGIC IS USED",
+            "LIBRARIES USED", "IMPORTANT PYTHON CONCEPTS",
+            "STEP-BY-STEP EXECUTION", "OUTPUT", "SIMPLE EXPLANATION",
+        ):
+            self.assertIn(heading, rendered)
+
     def test_assistant_chat_is_not_rendered(self):
         app = AppTest.from_file(APP_PATH).run(timeout=30)
         self.assertFalse(app.exception, [error.message for error in app.exception])

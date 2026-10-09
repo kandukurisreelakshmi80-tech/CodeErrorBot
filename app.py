@@ -16,6 +16,7 @@ from code_analyzer import (  # noqa: E402
     MAX_SOURCE_LENGTH,
 )
 from explanation import get_engine  # noqa: E402
+from program_explainer import explain_program  # noqa: E402
 
 st.set_page_config(page_title="CodeErrorBot", page_icon="🧑‍💻", layout="centered")
 
@@ -272,22 +273,27 @@ def show_results(result):
     st.warning(_safe_text(result.get("message"), "The analyzer returned an incomplete result."))
 
 
-st.title("CodeErrorBot – Python Code Analyzer")
-st.write("Analyze Python source and understand detected errors.")
+st.markdown(
+    '<h1 style="white-space: nowrap;"><strong style="font-size: 48px;">CodeErrorBot</strong> '
+    '<span style="font-size: 30px; font-weight: normal;">- A Code Error Analyzer</span></h1>',
+    unsafe_allow_html=True,
+)
 
 if st.button("Clear", type="secondary"):
     st.session_state["analysis_input"] = ""
     st.session_state.pop("analysis_result", None)
+    st.session_state.pop("program_explanation", None)
     st.rerun()
 
 with st.form("python_analysis"):
     source = st.text_area(
         "Python source code",
-        height=380,
+        height=260,
         key="analysis_input",
         placeholder="numbers = [10, 20, 30]\nprint(numbers[5])",
     )
     submitted = st.form_submit_button("Analyze Python Code", type="primary", use_container_width=True)
+    explain_submitted = st.form_submit_button("Explain Program", type="secondary", use_container_width=True)
 
 st.caption(
     f"Input limit: {MAX_SOURCE_LENGTH:,} characters. Python imports are inspected but never executed by the constrained runtime checker."
@@ -312,8 +318,30 @@ if submitted:
                 result.setdefault("source", source)
             st.session_state["analysis_result"] = result
 
+if explain_submitted:
+    with st.spinner("Explaining the Python structure..."):
+        explanation = explain_program(source)
+        if isinstance(explanation, dict):
+            explanation["source"] = source
+        st.session_state["program_explanation"] = explanation
+
 if engine is not None and st.session_state.get("analysis_result"):
     show_results(st.session_state["analysis_result"])
+
+program_explanation = st.session_state.get("program_explanation")
+if isinstance(program_explanation, Mapping) and program_explanation.get("source") == source:
+    st.subheader("Program Explanation")
+    if program_explanation.get("status") != "ok":
+        st.warning(_safe_text(program_explanation.get("message"), "The program could not be explained."))
+    else:
+        for heading, paragraphs in program_explanation.get("sections", {}).items():
+            st.markdown(f"### {heading}")
+            if heading in {"PROGRAM OVERVIEW", "SIMPLE EXPLANATION"}:
+                for paragraph in paragraphs:
+                    st.write(paragraph)
+            else:
+                for paragraph in paragraphs:
+                    st.markdown(f"- {paragraph}")
 
 packages = [
     ("NumPy", "numpy", "numpy"),
